@@ -39,3 +39,8 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# clerk configuration (can include secrets)
+/.clerk/
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_cG9zc2libGUtb2NlbG90LTE1LmNsZXJrLmFjY291bnRzLmRldiQ
+CLERK_SECRET_KEY=sk_test_F5gKft9UIfNlX7goUM309N3MFhhajCWYxNmx6cCZtV
